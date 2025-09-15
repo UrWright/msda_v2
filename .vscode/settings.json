@@ -1,0 +1,9 @@
+{
+    "C_Cpp.intelliSenseCachePath": "${workspaceFolder}/.vscode/cache",
+    "cmake.useCMakePresets": "always",
+    "files.associations": {
+        "iostream": "cpp",
+        "vector": "cpp",
+        "random": "cpp"
+    },
+}

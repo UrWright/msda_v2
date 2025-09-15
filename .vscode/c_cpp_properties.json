@@ -1,0 +1,23 @@
+{
+    "configurations": [
+        {
+            "name": "Linux",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "${workspaceFolder}/build_out/autogen/**",
+                "/usr/local/Ascend/ascend-toolkit/latest/**",
+                "/usr/local/Ascend/ascend-toolkit/latest/include/**",
+                "/usr/local/Ascend/ascend-toolkit/latest/opp/**",
+                "/root/miniconda3/envs/pybind/**"
+            ],
+            "defines": [],
+            "compilerPath": "/usr/bin/g++",
+            "cStandard": "c11",
+            "cppStandard": "gnu++14",
+            "intelliSenseMode": "linux-gcc-arm64",
+            "compileCommands": "${workspaceFolder}/build_out/compile_commands.json",
+            "configurationProvider": "ms-vscode.cmake-tools"
+        }
+    ],
+    "version": 4
+}
